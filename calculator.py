@@ -77,8 +77,9 @@ def numberFunc(num):
     solutionLabel.config(text = currNum)
 
 def clearFunc():
-    global equation
+    global equation, currNum
     equation = ""
+    currNum = ""
     solutionLabel.config(text = equation)
 
 # Create buttons and arrange in a grid
